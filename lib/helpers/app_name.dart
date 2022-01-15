@@ -1,0 +1,3 @@
+appName() {
+  return "Ussd Application";
+}
