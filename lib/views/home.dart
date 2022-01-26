@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.amber,
         elevation: 0.0,
         bottomOpacity: 0.0,
-        title: Text("Bankino"),
+        title: Text("Bankino USSD"),
       ),
       backgroundColor: Colors.amber,
       body: SingleChildScrollView(

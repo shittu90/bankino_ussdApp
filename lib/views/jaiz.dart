@@ -52,14 +52,16 @@ class _ZenithBank extends State<JaizBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text('${jaizTransactionList[index].transactionName}',
                       style: TextStyle(color: Colors.white)),
                   leading: CircleAvatar(
                     radius: 30.0,
-                    backgroundImage: AssetImage('images/jaizlogo.png'),
-                    backgroundColor: Colors.transparent,
+                    backgroundImage: AssetImage(
+                      'images/jaizlogo.png',
+                    ),
+                    backgroundColor: Colors.white,
                   ),
                   trailing: Icon(
                     Icons.phone_in_talk,

@@ -53,14 +53,14 @@ class _ZenithBank extends State<ZenithBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text('${zenithTransactionList[index].transactionName}',
                       style: TextStyle(color: Colors.white)),
                   leading: CircleAvatar(
                     radius: 30.0,
                     backgroundImage: AssetImage('images/zenithlogo.png'),
-                    backgroundColor: Colors.transparent,
+                    backgroundColor: Colors.white,
                   ),
                   trailing: Icon(
                     Icons.phone_in_talk,

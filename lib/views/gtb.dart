@@ -52,7 +52,7 @@ class _ZenithBank extends State<GtBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text('${gtTransactionList[index].transactionName}',
                       style: TextStyle(color: Colors.white)),

@@ -14,7 +14,7 @@ class BankinoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Bankino USSD',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

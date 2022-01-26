@@ -53,7 +53,7 @@ class _ZenithBank extends State<UnityBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text('${unityTransactionList[index].transactionName}',
                       style: TextStyle(color: Colors.white)),

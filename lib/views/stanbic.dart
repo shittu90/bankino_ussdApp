@@ -53,7 +53,7 @@ class _ZenithBank extends State<StanbicBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text(
                       '${stanbicTransactionList[index].transactionName}',
@@ -61,7 +61,7 @@ class _ZenithBank extends State<StanbicBank> {
                   leading: CircleAvatar(
                     radius: 30.0,
                     backgroundImage: AssetImage('images/stanbiclogo.png'),
-                    backgroundColor: Colors.transparent,
+                    backgroundColor: Colors.white,
                   ),
                   trailing: Icon(
                     Icons.phone_in_talk,

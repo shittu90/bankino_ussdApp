@@ -53,7 +53,7 @@ class _ZenithBank extends State<KeyStoneBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text(
                       '${keystoneTransactionList[index].transactionName}',

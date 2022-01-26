@@ -53,7 +53,7 @@ class _ZenithBank extends State<FidelityBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text(
                       '${fidelityTransactionList[index].transactionName}',
@@ -61,7 +61,7 @@ class _ZenithBank extends State<FidelityBank> {
                   leading: CircleAvatar(
                     radius: 30.0,
                     backgroundImage: AssetImage('images/fidelitylogo.png'),
-                    backgroundColor: Colors.transparent,
+                    backgroundColor: Colors.white,
                   ),
                   trailing: Icon(
                     Icons.phone_in_talk,

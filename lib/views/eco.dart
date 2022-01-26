@@ -52,14 +52,14 @@ class _EcoBankState extends State<EcoBank> {
                 }
               },
               child: Card(
-                color: Color(0xFF212122),
+                color: Color(0xFF545454),
                 child: ListTile(
                   title: Text('${ecoTransactionList[index].transactionName}',
                       style: TextStyle(color: Colors.white)),
                   leading: CircleAvatar(
                     radius: 30.0,
                     backgroundImage: AssetImage('images/ecologo.png'),
-                    backgroundColor: Colors.transparent,
+                    backgroundColor: Colors.white,
                   ),
                   trailing: Icon(
                     Icons.phone_in_talk,
